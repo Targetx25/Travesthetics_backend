@@ -10,7 +10,7 @@ dotenv.config();
 const app = express();
 const PORT = 5000;
 app.use(cors({
-    origin: "https://travesthetics.vercel.app/" 
+    origin: "https://travesthetics.vercel.app" 
   }));  
 const API_URL = "https://api.geoapify.com/";
 const apiKey = process.env.API_KEY; 
